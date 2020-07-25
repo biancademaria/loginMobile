@@ -3,6 +3,38 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /* sky */
+  --ion-color-sky: #53d8ea;
+  --ion-color-sky-rgb: 83,216,234;
+  --ion-color-sky-contrast: #000000;
+  --ion-color-sky-contrast-rgb: 0,0,0;
+  --ion-color-sky-shade: #49bece;
+  --ion-color-sky-tint: #64dcec;
+
+  /* choque */
+  --ion-color-choque: #ff47a9;
+  --ion-color-choque-rgb: 255,71,169;
+  --ion-color-choque-contrast: #000000;
+  --ion-color-choque-contrast-rgb: 0,0,0;
+  --ion-color-choque-shade: #e03e95;
+  --ion-color-choque-tint: #ff59b2;
+
+/* frost */
+--ion-color-frost: #8abac1;
+--ion-color-frost-rgb: 138,186,193;
+--ion-color-frost-contrast: #000000;
+--ion-color-frost-contrast-rgb: 0,0,0;
+--ion-color-frost-shade: #79a4aa;
+--ion-color-frost-tint: #96c1c7;
+
+/* musgo */
+--ion-color-musgo: #194008;
+--ion-color-musgo-rgb: 25,64,8;
+--ion-color-musgo-contrast: #ffffff;
+--ion-color-musgo-contrast-rgb: 255,255,255;
+--ion-color-musgo-shade: #163807;
+--ion-color-musgo-tint: #305321;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +106,38 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+.ion-color-sky {
+  --ion-color-base: var(--ion-color-sky);
+  --ion-color-base-rgb: var(--ion-color-sky-rgb);
+  --ion-color-contrast: var(--ion-color-sky-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sky-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sky-shade);
+  --ion-color-tint: var(--ion-color-sky-tint);
+}
+.ion-color-choque {
+  --ion-color-base: var(--ion-color-choque);
+  --ion-color-base-rgb: var(--ion-color-choque-rgb);
+  --ion-color-contrast: var(--ion-color-choque-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-choque-contrast-rgb);
+  --ion-color-shade: var(--ion-color-choque-shade);
+  --ion-color-tint: var(--ion-color-choque-tint);
+}
+.ion-color-frost {
+  --ion-color-base: var(--ion-color-frost);
+  --ion-color-base-rgb: var(--ion-color-frost-rgb);
+  --ion-color-contrast: var(--ion-color-frost-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-frost-contrast-rgb);
+  --ion-color-shade: var(--ion-color-frost-shade);
+  --ion-color-tint: var(--ion-color-frost-tint);
+}
+.ion-color-musgo {
+  --ion-color-base: var(--ion-color-musgo);
+  --ion-color-base-rgb: var(--ion-color-musgo-rgb);
+  --ion-color-contrast: var(--ion-color-musgo-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-musgo-contrast-rgb);
+  --ion-color-shade: var(--ion-color-musgo-shade);
+  --ion-color-tint: var(--ion-color-musgo-tint);
 }
 
 @media (prefers-color-scheme: dark) {

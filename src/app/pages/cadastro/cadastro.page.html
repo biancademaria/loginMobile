@@ -1,0 +1,58 @@
+<ion-content class="bg">
+
+  <div class="padding">
+    
+    <div class="logo">
+    <ion-icon name="planet"></ion-icon>
+  </div>
+
+  <ion-item>
+    <ion-label color="light">Nome</ion-label>
+    <ion-input color="light" placeholder="Seu nome" type="text"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label color="light">CPF</ion-label>
+    <ion-input color="light" placeholder="Seu nome" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="light">Nascimento</ion-label>
+    <ion-datetime displayFormat="DD MM YY" placeholder="Selecione"></ion-datetime>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label color="light">Gênero</ion-label>
+    <ion-select placeholder="Selecione">
+      <ion-select-option value="f">Feminino</ion-select-option>
+      <ion-select-option value="m">Masculino</ion-select-option>
+      <ion-select-option value="nb">Não-Binário</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="light">Celular</ion-label>
+    <ion-input color="light" placeholder="Adicione seu número" type="tel"></ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-label color="light">E-Mail</ion-label>
+      <ion-input color="light" placeholder="E-mail" type="email"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label color="light">Senha</ion-label>
+      <ion-input color="light" placeholder="Senha" type="password"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label color="light">Confirmar</ion-label>
+      <ion-input color="light" placeholder="Confirme a Senha" type="password"></ion-input>
+    </ion-item>
+
+    <br>
+    <ion-button expand="block" shape="round" fill="outline" size="small" color="light">Salvar Dados</ion-button>
+    <ion-button expand="block" shape="round" fill="outline" size="small" color="light" routerLink="/login">Voltar para Login</ion-button>
+
+  </div>
+  </ion-content>

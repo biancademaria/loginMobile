@@ -1,0 +1,33 @@
+<ion-content class="bg">
+
+<div class="padding">
+  
+  <div class="logo">
+  <ion-icon name="planet"></ion-icon>
+</div>
+
+  <ion-item>
+    <ion-label color="light" position="floating">E-Mail</ion-label>
+    <ion-input color="light" placeholder="adicione seu e-mail" type="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="light" position="floating">Senha</ion-label>
+    <ion-input color="light" placeholder="adicione sua senha" type="password"></ion-input>
+  </ion-item>
+
+  <ion-list class="tr">
+    <ion-item>
+      <ion-label color="light">Manter logado?</ion-label>
+      <ion-select interface="popover" placeholder="Selecione">
+        <ion-select-option color="light" value="sim">Sim</ion-select-option>
+        <ion-select-option class="light" color="light" value="nao">Não</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-list>
+    <br>
+    <ion-button expand="block" shape="round" fill="outline" size="small" color="light" routerLink="/home">Fazer Login</ion-button>
+    <br>
+    <ion-button expand="block" shape="round" fill="outline" size="small" color="light" routerLink="/cadastro">Fazer Cadastro</ion-button>
+</div>
+</ion-content>
